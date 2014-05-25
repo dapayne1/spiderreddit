@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/blogcrawler/blogcrawler.iml" filepath="$PROJECT_DIR$/blogcrawler/blogcrawler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/davepayne.iml" filepath="$PROJECT_DIR$/davepayne.iml" />
+    </modules>
+  </component>
+</project>
+
