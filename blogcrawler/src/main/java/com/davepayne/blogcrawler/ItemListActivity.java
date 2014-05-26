@@ -1,10 +1,25 @@
 package com.davepayne.blogcrawler;
 
+import android.app.AlertDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
+import android.support.v7.app.ActionBarActivity;
+import android.view.MenuItem;
+import android.widget.Toast;
 
+import com.davepayne.blogcrawler.db.RSSDBData;
+import com.davepayne.blogcrawler.db.RSSDBHelper;
+import com.davepayne.blogcrawler.db.RSSDBManager;
+import com.j256.ormlite.android.apptools.OpenHelperManager;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import at.theengine.android.simple_rss2_android.RSSItem;
+import at.theengine.android.simple_rss2_android.SimpleRss2Parser;
+import at.theengine.android.simple_rss2_android.SimpleRss2ParserCallback;
 
 
 /**
@@ -23,19 +38,31 @@ import android.support.v4.app.FragmentActivity;
  * {@link ItemListFragment.Callbacks} interface
  * to listen for item selections.
  */
-public class ItemListActivity extends FragmentActivity
-        implements ItemListFragment.Callbacks {
+public class ItemListActivity extends ActionBarActivity implements ItemListFragment.Callbacks {
 
     /**
      * Whether or not the activity is in two-pane mode, i.e. running on a tablet
      * device.
      */
     private boolean mTwoPane;
+    private List<RSSItem> rssItems;
+    private String currentURL = null;
+    private AlertDialog mAlertDialog;
+    private SharedPreferences mSharedPreferences;
+    private final static String SHARED_PREF_KEY = "shared_preferences";
+    //private RSSDBHelper mRSSDBHelper = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // Let's initialize our local database.
+        RSSDBManager.init(this);
+
         setContentView(R.layout.activity_item_list);
+
+        // Show the Up button in the action bar.
+        getSupportActionBar().setHomeButtonEnabled(true);
 
         if (findViewById(R.id.item_detail_container) != null) {
             // The detail container view will be present only in the
@@ -51,7 +78,60 @@ public class ItemListActivity extends FragmentActivity
                     .setActivateOnItemClick(true);
         }
 
-        // TODO: If exposing deep links into your app, handle intents here.
+        // Load our saved shared preferences, if any.
+        mSharedPreferences = getSharedPreferences(SHARED_PREF_KEY, MODE_PRIVATE);
+        currentURL = mSharedPreferences.getString("currentURL", null);
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        loadSavedLocalData();
+    }
+
+    private ArrayList<RSSItem> convertOutOfDBFormat(List<RSSDBData> dbItems) {
+        ArrayList<RSSItem> rssItems = null;
+        if ((dbItems != null) && (!dbItems.isEmpty())) {
+            rssItems = new ArrayList<RSSItem>(dbItems.size());
+            RSSItem newRSSItem;
+            for(RSSDBData thisDBItem : dbItems) {
+                newRSSItem = thisDBItem.toRSSItem();
+                rssItems.add(newRSSItem);
+            }
+        }
+        return rssItems;
+    }
+
+    private void loadSavedLocalData() {
+        final List<RSSDBData> savedRSSData = RSSDBManager.getInstance().getAllRSSDBDatas();
+
+        if (savedRSSData == null) {
+            // No local data saved!
+
+            // Display our welcome dialog if currentURL not populated.
+            if (currentURL == null) {
+                showEntryDialog();
+            } else {
+                ((ItemListFragment) getSupportFragmentManager()
+                        .findFragmentById(R.id.item_list)).loadFeed(getRssItemsAsArrayList());
+            }
+        } else {
+            // Save our newly loaded items.
+            rssItems = convertOutOfDBFormat(savedRSSData);
+
+            // Update our lists.
+            ((ItemListFragment) getSupportFragmentManager()
+                    .findFragmentById(R.id.item_list)).loadFeed(getRssItemsAsArrayList());
+        }
+
+    }
+
+
+    private void showEntryDialog() {
+        EntryDialog newDialog = new EntryDialog(this, currentURL);
+        newDialog.setCancelable(false);
+        mAlertDialog = newDialog.create();
+        mAlertDialog.show();
     }
 
     /**
@@ -80,4 +160,113 @@ public class ItemListActivity extends FragmentActivity
             startActivity(detailIntent);
         }
     }
+
+    /**
+     * Sets the app URL for RSS.
+     * * @param String representing a valid RSS feed URL.
+     */
+    public void setNewURL(String newURL) {
+        // Update our local variable.
+        currentURL = newURL;
+
+        // Make sure we save this to our shared preferences as well.
+        SharedPreferences.Editor prefEditor = mSharedPreferences.edit();
+        prefEditor.clear();
+        prefEditor.putString("currentURL", currentURL);
+        prefEditor.commit();
+
+        // Dismiss any active open dialogs.
+        if (mAlertDialog.isShowing()) {
+            mAlertDialog.dismiss();
+        }
+
+        // Alert user we are loading new RSS.
+        Toast.makeText(this, "Now loading RSS feed for " + currentURL + "...", Toast.LENGTH_SHORT).show();
+
+        // Go ahead and begin fetching the RSS feed for the newly given URL.
+        fetchAndParseRSSForCurrentURL();
+
+    }
+
+    /**
+     * Assumes that local variable currentURL is valid (save for not having a "http://" in front...
+     * this is checked for), asynchronously fetches and parses RSS feed to UI-friendly list
+     * of RSSItems.
+     */
+    private void fetchAndParseRSSForCurrentURL() {
+        final Context context = this;
+
+        String urlToFetch = currentURL;
+        if (!currentURL.startsWith("http://")) {
+            urlToFetch = "http://" + currentURL;
+        } else {
+            urlToFetch = currentURL;
+        }
+        SimpleRss2Parser parser = new SimpleRss2Parser(urlToFetch,
+                new SimpleRss2ParserCallback() {
+                    @Override
+                    public void onFeedParsed(List<RSSItem> items) {
+
+                        // Save our newly parsed items.
+                        rssItems = items;
+
+                        // Update our database.
+                        RSSDBManager.getInstance().addRSSDBData(new RSSDBData(rssItems.get(0)));
+
+                        // Update our lists.
+                        ((ItemListFragment) getSupportFragmentManager()
+                                .findFragmentById(R.id.item_list)).loadFeed(getRssItemsAsArrayList());
+                    }
+                    @Override
+                    public void onError(Exception ex) {
+                        Toast.makeText(context, ex.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                });
+        parser.parseAsync();
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        if (id == android.R.id.home) {
+
+            showEntryDialog();
+
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    public List<RSSItem> getRssItems() {
+        return rssItems;
+    }
+
+    public ArrayList<RSSItem> getRssItemsAsArrayList() {
+        if (rssItems != null) {
+            return new ArrayList<RSSItem>(rssItems);
+        } else {
+            return null;
+        }
+    }
+
+    public String getCurrentURL() {
+        return currentURL;
+    }
+
+//    @Override
+//    protected void onDestroy() {
+//        super.onDestroy();
+//
+//        if (mRSSDBHelper != null) {
+//            OpenHelperManager.releaseHelper();
+//            mRSSDBHelper = null;
+//        }
+//    }
+//
+//    private RSSDBHelper getHelper() {
+//        if (mRSSDBHelper == null) {
+//            mRSSDBHelper = OpenHelperManager.getHelper(this, RSSDBHelper.class);
+//        }
+//        return mRSSDBHelper;
+//    }
 }

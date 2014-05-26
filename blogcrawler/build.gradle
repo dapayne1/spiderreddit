@@ -25,4 +25,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:19.+'
     // You must install or update the Support Repository through the SDK manager to use this dependency.
     compile 'com.android.support:support-v4:19.+'
+    compile files('libs/Simple-Rss2-Android.jar')
+    compile files('libs/ormlite-core-4.48.jar')
+    compile files('libs/ormlite-android-4.48.jar')
 }

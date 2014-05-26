@@ -4,4 +4,8 @@
     <string name="app_name">BlogCrawler</string>
     <string name="title_item_detail">Item Detail</string>
 
+    <string name="default_rss_url">www.reddit.com/.rss</string>
+    <string name="entry_dialog_button_go_text">Go!</string>
+    <string name="entry_dialog_textview_subtitle_text">Welcome! Please enter RSS URL.</string>
+
 </resources>

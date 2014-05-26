@@ -1,49 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="app: com.davepayne.blogcrawler" />
+        <option name="packageNamePattern" value="com.davepayne.blogcrawler" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="SimpleRss2ParserDemo" />
+        <option name="name" value="SimpleRss2ParserDemo" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState>
+        <option name="visible" value="false" />
+      </GlobalState>
+    </option>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.davepayne.blogcrawler" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5cbe3a79-352d-4f86-9fba-c960db876c5b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/ic_launcher-web.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/res/drawable-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/res/drawable-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/res/drawable-xxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/dummy/DummyContent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/res/layout/activity_item_detail.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/res/layout/activity_item_list.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/res/layout/activity_item_twopane.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_19_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/blogcrawler.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/davepayne.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/res/layout/fragment_item_detail.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/proguard-rules.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/res/values-large/refs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/res/values-sw600dp/refs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_19_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/libs/Simple-Rss2-Android.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/libs/ormlite-android-4.48.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/libs/ormlite-core-4.48.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/EntryDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBConfigUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Simple_Rss2_Android.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/res/layout/entry_dialog.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ormlite_android_4_48.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ormlite_core_4_48.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/blogcrawler/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailActivity.java" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailFragment.java" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListActivity.java" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/blogcrawler.iml" afterPath="$PROJECT_DIR$/blogcrawler/blogcrawler.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/build.gradle" afterPath="$PROJECT_DIR$/blogcrawler/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/blogcrawler/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BlogCrawler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,6 +120,228 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="BlogCrawler" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.53833604">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="ItemDetailActivity.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailActivity.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="1207">
+                  <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ItemListActivity.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListActivity.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.04897959" vertical-offset="3254" max-vertical-offset="4403">
+                  <caret line="209" column="55" selection-start-line="209" selection-start-column="55" selection-end-line="209" selection-end-column="55" />
+                  <folding>
+                    <element signature="e#8659#8660#0" expanded="true" />
+                    <element signature="e#8690#8691#0" expanded="true" />
+                    <element signature="e#8928#8929#0" expanded="true" />
+                    <element signature="e#8961#8962#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RSSItem.class" pinned="false" current="false" current-in-tab="false">
+            <entry file="jar://$PROJECT_DIR$/blogcrawler/libs/Simple-Rss2-Android.jar!/at/theengine/android/simple_rss2_android/RSSItem.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.4" vertical-offset="75" max-vertical-offset="833">
+                  <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="activity_item_list.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/layout/activity_item_list.xml">
+              <provider editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+              <provider selected="true" editor-type-id="android-designer">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="activity_item_twopane.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/layout/activity_item_twopane.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="748">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+              <provider editor-type-id="android-designer">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="activity_item_detail.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/layout/activity_item_detail.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-2.2884614" vertical-offset="0" max-vertical-offset="221">
+                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+              <provider editor-type-id="android-designer">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="entry_dialog.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/layout/entry_dialog.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-2.9615386" vertical-offset="373" max-vertical-offset="1003">
+                  <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+                  <folding>
+                    <element signature="e#1356#1401#0" expanded="true" />
+                    <element signature="e#1827#1852#0" expanded="true" />
+                    <element signature="e#2112#2149#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+              <provider editor-type-id="android-designer">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/AndroidManifest.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-2.6153846" vertical-offset="136" max-vertical-offset="629">
+                  <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+                  <folding>
+                    <element signature="e#513#531#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ItemListFragment.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="1023" max-vertical-offset="2584">
+                  <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#2637#2638#0" expanded="true" />
+                    <element signature="e#2685#2686#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ItemDetailFragment.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailFragment.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="1139">
+                  <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RSSDBHelper.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBHelper.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="1155" max-vertical-offset="1938">
+                  <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RSSDBConfigUtil.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBConfigUtil.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+                  <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DummyContent.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/dummy/DummyContent.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+                  <caret line="7" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#471#482#0" expanded="true" />
+                    <element signature="e#611#630#0" expanded="true" />
+                    <element signature="e#1287#1288#0" expanded="true" />
+                    <element signature="e#1325#1326#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ItemListAdapter.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListAdapter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="1027" max-vertical-offset="1530">
+                  <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#964#965#0" expanded="true" />
+                    <element signature="e#1019#1020#0" expanded="true" />
+                    <element signature="e#1077#1078#0" expanded="true" />
+                    <element signature="e#1119#1120#0" expanded="true" />
+                    <element signature="e#1176#1177#0" expanded="true" />
+                    <element signature="e#1207#1208#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="RSSDBManager.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBManager.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.30816326" vertical-offset="512" max-vertical-offset="1054">
+                  <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RSSDBData.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBData.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="1768">
+                  <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -877,7 +1116,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4203170488293" />
+        <entry key="$PROJECT_DIR$" value="4203221307567" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1132,6 +1371,26 @@
       </map>
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailFragment.java" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/dummy/DummyContent.java" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/res/layout/entry_dialog.xml" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/EntryDialog.java" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailActivity.java" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListAdapter.java" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBConfigUtil.java" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBHelper.java" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBManager.java" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBData.java" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListActivity.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -1145,7 +1404,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -1165,6 +1424,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1173,9 +1433,132 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCrawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="davepayne" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCrawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="davepayne" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCrawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="davepayne" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogcrawler" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCrawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="davepayne" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogcrawler" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCrawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="davepayne" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogcrawler" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogcrawler" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlogCrawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="davepayne" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogcrawler" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogcrawler" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1189,13 +1572,41 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="07532d71" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="GalaxyNexus" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus10" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\workspace\davepayne\blogcrawler\libs" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.blogcrawler">
+    <configuration default="false" name="RSSDBConfigUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.davepayne.blogcrawler.db.RSSDBConfigUtil" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="blogcrawler" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method>
+        <option name="Make" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -1341,9 +1752,15 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Android Application.blogcrawler" />
+      <item index="1" class="java.lang.String" itemvalue="Application.RSSDBConfigUtil" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.RSSDBConfigUtil" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
@@ -1353,6 +1770,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -1364,38 +1786,89 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="736" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39862543" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30927834" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17010309" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39862543" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17010309" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.042955328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08934708" sideWeight="0.82435596" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.009693054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.65120274" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27948305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.04952077" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39862543" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30927834" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1415,6 +1888,219 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../adt-bundle-windows-x86_64-20131030/sdk/platforms/android-19/data/res/layout/simple_list_item_activated_1.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31264368" vertical-offset="0" max-vertical-offset="435">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/EntryDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6030369" vertical-offset="538" max-vertical-offset="1190">
+          <caret line="48" column="106" selection-start-line="47" selection-start-column="24" selection-end-line="48" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1169#1960#0" expanded="true" />
+            <element signature="e#1949#1950#0" expanded="true" />
+            <element signature="e#2273#2274#0" expanded="true" />
+            <element signature="e#2336#2337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/layout/activity_item_list.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="272">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/layout/activity_item_twopane.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/layout/activity_item_detail.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2884614" vertical-offset="0" max-vertical-offset="221">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/layout/entry_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9615386" vertical-offset="373" max-vertical-offset="1003">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="e#1356#1401#0" expanded="true" />
+            <element signature="e#1827#1852#0" expanded="true" />
+            <element signature="e#2112#2149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/dummy/DummyContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="7" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#471#482#0" expanded="true" />
+            <element signature="e#611#630#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1027" max-vertical-offset="1530">
+          <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="136" max-vertical-offset="629">
+          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+          <folding>
+            <element signature="e#513#531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1023" max-vertical-offset="2584">
+          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+          <folding>
+            <element signature="e#2637#2638#0" expanded="true" />
+            <element signature="e#2685#2686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBConfigUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="1139">
+          <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/blogcrawler/libs/Simple-Rss2-Android.jar!/at/theengine/android/simple_rss2_android/RSSItem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.4" vertical-offset="75" max-vertical-offset="833">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1155" max-vertical-offset="1938">
+          <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="1207">
+          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.04897959" vertical-offset="3254" max-vertical-offset="4403">
+          <caret line="209" column="55" selection-start-line="209" selection-start-column="55" selection-end-line="209" selection-end-column="55" />
+          <folding>
+            <element signature="e#8659#8660#0" expanded="true" />
+            <element signature="e#8690#8691#0" expanded="true" />
+            <element signature="e#8928#8929#0" expanded="true" />
+            <element signature="e#8961#8962#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="1768">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30816326" vertical-offset="512" max-vertical-offset="1054">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
 

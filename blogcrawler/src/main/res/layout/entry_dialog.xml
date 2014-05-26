@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/entry_dialog_imageview_logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:paddingRight="16dp"
+        android:scaleType="fitCenter"
+        android:paddingLeft="16dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:src="@drawable/ic_launcher"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_gravity="center_vertical"
+        android:paddingRight="16dp"
+        android:layout_toRightOf="@id/entry_dialog_imageview_logo">
+        <TextView
+            android:id="@+id/entry_dialog_textview_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingBottom="8dp"
+            android:text="@string/entry_dialog_textview_subtitle_text" />
+        <EditText
+            android:id="@+id/entry_dialog_edittext_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/entry_dialog_textview_subtitle"
+            android:textSize="18sp"
+            android:inputType="textWebEmailAddress|textWebEditText|textUri"
+            android:selectAllOnFocus="true"
+            android:text="@string/default_rss_url" />
+        <Button
+            android:id="@+id/entry_dialog_button_go"
+            android:layout_width="match_parent"
+            android:layout_below="@id/entry_dialog_edittext_url"
+            android:layout_height="wrap_content"
+            android:text="@string/entry_dialog_button_go_text"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

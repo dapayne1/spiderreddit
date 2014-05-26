@@ -1,9 +1,7 @@
 package com.davepayne.blogcrawler;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
-import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
 
 
@@ -60,7 +58,8 @@ public class ItemDetailActivity extends ActionBarActivity {
             //
             // http://developer.android.com/design/patterns/navigation.html#up-vs-back
             //
-            NavUtils.navigateUpTo(this, new Intent(this, ItemListActivity.class));
+            onBackPressed();
+            //NavUtils.navigateUpTo(this, new Intent(this, ItemListActivity.class));
             return true;
         }
         return super.onOptionsItemSelected(item);
