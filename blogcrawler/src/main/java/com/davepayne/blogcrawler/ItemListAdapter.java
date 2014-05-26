@@ -1,10 +1,13 @@
 package com.davepayne.blogcrawler;
 
 import android.app.Activity;
+import android.graphics.Color;
+import android.graphics.drawable.GradientDrawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -18,8 +21,8 @@ public class ItemListAdapter extends ArrayAdapter<RSSItem> {
     private Activity parentActivity;
 
     public ItemListAdapter(Activity parent, ArrayList<RSSItem> items) {
-
         super(parent, android.R.layout.simple_list_item_2, items);
+
         this.parentActivity = parent;
         this.items = items;
 
@@ -60,6 +63,14 @@ public class ItemListAdapter extends ArrayAdapter<RSSItem> {
             LayoutInflater inflater = parentActivity.getLayoutInflater();
             rowView = inflater.inflate(android.R.layout.simple_list_item_2, null);
 
+            // Fancify background for row view.
+            GradientDrawable gradient = new GradientDrawable(GradientDrawable.Orientation.BOTTOM_TOP, new int[]
+                    {Color.TRANSPARENT, Color.argb(128, 158, 211, 255)});
+            gradient.setShape(GradientDrawable.RECTANGLE);
+            gradient.setCornerRadius(25.f);
+            rowView.setBackgroundDrawable(gradient);
+
+            // Set up our viewholder.
             viewHolder = new ViewHolder();
             viewHolder.text1 = (TextView) rowView.findViewById(android.R.id.text1);
             viewHolder.text2 = (TextView) rowView.findViewById(android.R.id.text2);
