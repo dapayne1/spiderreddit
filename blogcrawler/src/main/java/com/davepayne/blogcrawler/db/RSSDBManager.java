@@ -7,6 +7,10 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Follows singleton design pattern. Initialize first, once, via RSSDBManager.init(context).
+ * Access after that via RSSDBManager.getInstance().
+ */
 public class RSSDBManager {
 
     private RSSDBHelper helper;
@@ -30,7 +34,8 @@ public class RSSDBManager {
     /** Singleton Design Pattern Ends **/
 
     /**
-     * @return Returns all saved RSSDBData in local database, or null.
+     * @return Returns List of all RSSDBData objects in local database, or null if none present or
+     * an exception is thrown.
      */
     public List<RSSDBData> getAllRSSDBDatas(Context context) {
 

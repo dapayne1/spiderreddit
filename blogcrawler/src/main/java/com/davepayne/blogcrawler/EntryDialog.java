@@ -9,6 +9,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+/**
+ * Convenience method to supply a standardized AlertDialog.Builder for wheneve the user wishes
+ * to update the RSS URL. Provides an edittable field for user to do so.
+ */
 public class EntryDialog extends AlertDialog.Builder {
 
     private EditText editTextURL;

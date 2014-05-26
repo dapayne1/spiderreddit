@@ -56,10 +56,13 @@ public class ItemListAdapter extends ArrayAdapter<RSSItem> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
+        // Set up our view and viewholders.
         View rowView = convertView;
         ViewHolder viewHolder = null;
 
+        // If this row hasn't been set up prior,
         if (convertView == null) {
+            // Inflate our rowView from XML layout.
             LayoutInflater inflater = parentActivity.getLayoutInflater();
             rowView = inflater.inflate(android.R.layout.simple_list_item_2, null);
 
@@ -75,11 +78,14 @@ public class ItemListAdapter extends ArrayAdapter<RSSItem> {
             viewHolder.text1 = (TextView) rowView.findViewById(android.R.id.text1);
             viewHolder.text2 = (TextView) rowView.findViewById(android.R.id.text2);
 
+            // Apply our viewholder tag, for reuseability.
             rowView.setTag(viewHolder);
         } else {
+            // This row has been set up prior, so simply reference by existing tag.
             viewHolder = (ViewHolder) rowView.getTag();
         }
 
+        // Populate our view UI with values from respective row data.
         RSSItem thisRSSItem = (RSSItem) getItem(position);
         viewHolder.text1.setText(thisRSSItem.getTitle());
         viewHolder.text2.setText(thisRSSItem.getDate());

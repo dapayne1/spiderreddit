@@ -45,23 +45,33 @@ public class ItemListActivity extends ActionBarActivity implements ItemListFragm
      * device.
      */
     private boolean mTwoPane;
+
+    // Current data model listing for view.
     private List<RSSItem> rssItems;
+
+    // Easy reference to current RSS URL.
     private String currentURL = null;
+
+    // A defined dialog for updating the currentURL.
     private AlertDialog mAlertDialog;
+
+    // SharedPreferences stores our currentURL.
     private SharedPreferences mSharedPreferences;
+
+    // Convenience key string definition.
     private final static String SHARED_PREF_KEY = "shared_preferences";
-    //private RSSDBHelper mRSSDBHelper = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // Set content view for layout from XML.
+        setContentView(R.layout.activity_item_list);
+
         // Let's initialize our local database.
         RSSDBManager.init(this);
 
-        setContentView(R.layout.activity_item_list);
-
-        // Show the Up button in the action bar.
+        // Enable the actionbar logo and title to be tapped.
         getSupportActionBar().setHomeButtonEnabled(true);
 
         if (findViewById(R.id.item_detail_container) != null) {
@@ -78,7 +88,7 @@ public class ItemListActivity extends ActionBarActivity implements ItemListFragm
                     .setActivateOnItemClick(true);
         }
 
-        // Load our saved shared preferences, if any.
+        // Load our saved shared preferences, if any, otherwise "null".
         mSharedPreferences = getSharedPreferences(SHARED_PREF_KEY, MODE_PRIVATE);
         currentURL = mSharedPreferences.getString("currentURL", null);
     }
@@ -96,6 +106,11 @@ public class ItemListActivity extends ActionBarActivity implements ItemListFragm
         }
     }
 
+    /**
+     * Convenience method to convert List of type RSSDBData to ArrayList of type RSSItem.
+     * @param dbItems List of type RSSDBData
+     * @return ArrayList of type RSSItem
+     */
     private ArrayList<RSSItem> convertOutOfDBFormat(List<RSSDBData> dbItems) {
         ArrayList<RSSItem> rssItems = null;
         if ((dbItems != null) && (!dbItems.isEmpty())) {
@@ -132,7 +147,10 @@ public class ItemListActivity extends ActionBarActivity implements ItemListFragm
         return didLoadSavedData;
     }
 
-
+    /**
+     * Display modal alert dialog with an editable field to the user, to prompt them to type in
+     * an RSS URL.
+     */
     private void showEntryDialog() {
         EntryDialog newDialog = new EntryDialog(this, currentURL);
         newDialog.setCancelable(false);
@@ -235,6 +253,11 @@ public class ItemListActivity extends ActionBarActivity implements ItemListFragm
         parser.parseAsync();
     }
 
+    /**
+     * Handle actionbar interactions.
+     * @param item Menu item on the action bar.
+     * @return Returns false to allow normal menu processing to proceed, true if not.
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
@@ -262,21 +285,4 @@ public class ItemListActivity extends ActionBarActivity implements ItemListFragm
     public String getCurrentURL() {
         return currentURL;
     }
-
-//    @Override
-//    protected void onDestroy() {
-//        super.onDestroy();
-//
-//        if (mRSSDBHelper != null) {
-//            OpenHelperManager.releaseHelper();
-//            mRSSDBHelper = null;
-//        }
-//    }
-//
-//    private RSSDBHelper getHelper() {
-//        if (mRSSDBHelper == null) {
-//            mRSSDBHelper = OpenHelperManager.getHelper(this, RSSDBHelper.class);
-//        }
-//        return mRSSDBHelper;
-//    }
 }

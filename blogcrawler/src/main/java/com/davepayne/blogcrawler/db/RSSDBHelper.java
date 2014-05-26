@@ -19,10 +19,8 @@ import java.sql.SQLException;
  */
 public class RSSDBHelper extends OrmLiteSqliteOpenHelper {
 
-    // name of the database file for your application -- change to something appropriate for your app
     private static final String DATABASE_NAME = "blogcrawler.db";
-    // any time you make changes to your database objects, you may have to increase the database version
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 1; // Here in case you go through DB transitions.
 
     // the DAO object we use to access the RSSDBData table
     private Dao<RSSDBData, Integer> simpleDao = null;
@@ -45,16 +43,6 @@ public class RSSDBHelper extends OrmLiteSqliteOpenHelper {
             Log.e(RSSDBHelper.class.getName(), "Can't create database", e);
             throw new RuntimeException(e);
         }
-
-        // here we try inserting data in the on-create as a test
-//        RuntimeExceptionDao<RSSDBData, Integer> dao = getRSSDBDataDao();
-//        long millis = System.currentTimeMillis();
-//        // create some entries in the onCreate
-//        RSSDBData simple = new RSSDBData(millis);
-//        dao.create(simple);
-//        simple = new RSSDBData(millis + 1);
-//        dao.create(simple);
-//        Log.i(RSSDBHelper.class.getName(), "created new entries in onCreate: " + millis);
     }
 
     /**
