@@ -5,14 +5,10 @@ import android.os.Bundle;
 import android.support.v4.app.ListFragment;
 import android.view.View;
 import android.widget.ListView;
-import android.widget.SimpleAdapter;
 
 import com.davepayne.blogcrawler.dummy.DummyContent;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 import at.theengine.android.simple_rss2_android.RSSItem;
 
@@ -80,6 +76,7 @@ public class ItemListFragment extends ListFragment {
 
         mItemListAdapter = new ItemListAdapter(getActivity(), ((ItemListActivity)getActivity()).getRssItemsAsArrayList());
         setListAdapter(mItemListAdapter);
+
     }
 
     public void loadFeed(ArrayList<RSSItem> items) {

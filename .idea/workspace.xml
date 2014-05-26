@@ -37,16 +37,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cbe3a79-352d-4f86-9fba-c960db876c5b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/util/GfxUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/res/values/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/res/drawable/row_background_gradient.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/EntryDialog.java" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/EntryDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListActivity.java" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListAdapter.java" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBHelper.java" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBManager.java" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BlogCrawler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -197,20 +188,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ItemListFragment.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="ItemListFragment.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="334" max-vertical-offset="2567">
-                  <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+                <state vertical-scroll-proportion="-2.7104137" vertical-offset="2036" max-vertical-offset="2737">
+                  <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="GfxUtil.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="GfxUtil.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/util/GfxUtil.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4047619" vertical-offset="0" max-vertical-offset="714">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
                   <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
                   <folding />
                 </state>
@@ -1371,12 +1362,12 @@
         <option value="$PROJECT_DIR$/blogcrawler/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/blogcrawler/src/main/res/drawable/row_background_gradient.xml" />
         <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListAdapter.java" />
-        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java" />
         <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBManager.java" />
         <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListActivity.java" />
         <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBHelper.java" />
         <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/EntryDialog.java" />
         <option value="$PROJECT_DIR$/blogcrawler/src/main/java/util/GfxUtil.java" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java" />
       </list>
     </option>
   </component>
@@ -1842,7 +1833,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2542373" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3022599" sideWeight="0.82435596" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3022599" sideWeight="0.82435596" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2165,14 +2156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="334" max-vertical-offset="2567">
-          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-139.55556" vertical-offset="737" max-vertical-offset="4641">
@@ -2249,8 +2232,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/util/GfxUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4047619" vertical-offset="0" max-vertical-offset="714">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7104137" vertical-offset="2036" max-vertical-offset="2737">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
           <folding />
         </state>
       </provider>
