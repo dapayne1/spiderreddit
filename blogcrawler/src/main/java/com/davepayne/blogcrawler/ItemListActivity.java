@@ -86,7 +86,14 @@ public class ItemListActivity extends ActionBarActivity implements ItemListFragm
     @Override
     protected void onStart() {
         super.onStart();
-        loadSavedLocalData();
+
+        // Let's attempt to load stored data, if any, from our local database.
+        boolean foundSavedData = loadSavedLocalData();
+
+        if (!foundSavedData) {
+            // No local data saved, so let's display our entry dialog to prompt user for an RSS URL.
+            showEntryDialog();
+        }
     }
 
     private ArrayList<RSSItem> convertOutOfDBFormat(List<RSSDBData> dbItems) {
@@ -102,20 +109,18 @@ public class ItemListActivity extends ActionBarActivity implements ItemListFragm
         return rssItems;
     }
 
-    private void loadSavedLocalData() {
-        final List<RSSDBData> savedRSSData = RSSDBManager.getInstance().getAllRSSDBDatas();
+    /**
+     * This method attempts to load any previously saved RSS data from the app's local database.
+     * If it does
+     */
+    private boolean loadSavedLocalData() {
+        boolean didLoadSavedData = false;
+        // Query our local database for all of it's RSS data.
+        final List<RSSDBData> savedRSSData = RSSDBManager.getInstance().getAllRSSDBDatas(this);
 
-        if (savedRSSData == null) {
-            // No local data saved!
-
-            // Display our welcome dialog if currentURL not populated.
-            if (currentURL == null) {
-                showEntryDialog();
-            } else {
-                ((ItemListFragment) getSupportFragmentManager()
-                        .findFragmentById(R.id.item_list)).loadFeed(getRssItemsAsArrayList());
-            }
-        } else {
+        // If our local database has returned data,
+        if (savedRSSData != null) {
+            didLoadSavedData = true;
             // Save our newly loaded items.
             rssItems = convertOutOfDBFormat(savedRSSData);
 
@@ -124,6 +129,7 @@ public class ItemListActivity extends ActionBarActivity implements ItemListFragm
                     .findFragmentById(R.id.item_list)).loadFeed(getRssItemsAsArrayList());
         }
 
+        return didLoadSavedData;
     }
 
 
@@ -211,9 +217,13 @@ public class ItemListActivity extends ActionBarActivity implements ItemListFragm
                         rssItems = items;
 
                         // Update our database.
-                        RSSDBManager.getInstance().addRSSDBData(new RSSDBData(rssItems.get(0)));
+                        ArrayList<RSSDBData>itemsDB = new ArrayList<RSSDBData>(items.size());
+                        for (RSSItem thisItem : items) {
+                            itemsDB.add(new RSSDBData(thisItem));
+                        }
+                        RSSDBManager.getInstance().setRSSDBData(itemsDB, context);
 
-                        // Update our lists.
+                        // Update our fragment listview.
                         ((ItemListFragment) getSupportFragmentManager()
                                 .findFragmentById(R.id.item_list)).loadFeed(getRssItemsAsArrayList());
                     }
