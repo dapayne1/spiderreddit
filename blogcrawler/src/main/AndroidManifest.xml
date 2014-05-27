@@ -21,6 +21,7 @@
         <activity
             android:name="com.davepayne.blogcrawler.ItemDetailActivity"
             android:label="@string/title_item_detail"
+            android:configChanges="orientation|screenSize"
             android:parentActivityName="com.davepayne.blogcrawler.ItemListActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

@@ -1,5 +1,6 @@
 package com.davepayne.blogcrawler;
 
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
@@ -63,5 +64,15 @@ public class ItemDetailActivity extends ActionBarActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    /**
+     * We want to override orientation changes for this activity, so that state
+     * is preserved for our RSS webviews.
+     * @param newConfig New configuration state.
+     */
+    @Override
+    public void onConfigurationChanged(Configuration newConfig){
+        super.onConfigurationChanged(newConfig);
     }
 }
