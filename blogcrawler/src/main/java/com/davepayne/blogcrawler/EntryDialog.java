@@ -24,7 +24,7 @@ public class EntryDialog extends AlertDialog.Builder {
 
         mActivity = activity;
 
-        this.setTitle("Bob BlogClaw Blog Crawler");
+        this.setTitle("SpiderReddit RSS Reader");
         LayoutInflater inflater = activity.getLayoutInflater();
         View dialoglayout = inflater.inflate(R.layout.entry_dialog, null);
         this.setView(dialoglayout);
