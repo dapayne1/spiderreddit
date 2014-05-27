@@ -27,7 +27,7 @@ public class ItemListAdapter extends ArrayAdapter<RSSItem> {
         this.items = items;
 
         if (this.items == null) {
-            items = new ArrayList<RSSItem>();
+            this.items = new ArrayList<RSSItem>();
         }
     }
 

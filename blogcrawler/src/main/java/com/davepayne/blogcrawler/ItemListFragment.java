@@ -6,8 +6,6 @@ import android.support.v4.app.ListFragment;
 import android.view.View;
 import android.widget.ListView;
 
-import com.davepayne.blogcrawler.dummy.DummyContent;
-
 import java.util.ArrayList;
 
 import at.theengine.android.simple_rss2_android.RSSItem;
@@ -50,7 +48,7 @@ public class ItemListFragment extends ListFragment {
         /**
          * Callback for when an item has been selected.
          */
-        public void onItemSelected(String id);
+        public void onItemSelected(RSSItem thisRSSItem);
     }
 
     /**
@@ -59,7 +57,7 @@ public class ItemListFragment extends ListFragment {
      */
     private static Callbacks sDummyCallbacks = new Callbacks() {
         @Override
-        public void onItemSelected(String id) {
+        public void onItemSelected(RSSItem thisRSSItem) {
         }
     };
 
@@ -119,9 +117,8 @@ public class ItemListFragment extends ListFragment {
         super.onListItemClick(listView, view, position, id);
 
         // Notify the active callbacks interface (the activity, if the
-        // fragment is attached to one) that an item has been selected.
-        //mCallbacks.onItemSelected(items.get(position).id);
-        mCallbacks.onItemSelected(DummyContent.ITEMS.get(position).id);
+        // fragment is attached to one) that an item has been selected and pass it our RSSItem.
+        mCallbacks.onItemSelected(mItemListAdapter.getItem(position));
     }
 
     @Override
