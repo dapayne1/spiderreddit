@@ -67,11 +67,11 @@ public class ItemListAdapter extends ArrayAdapter<RSSItem> {
             rowView = inflater.inflate(android.R.layout.simple_list_item_2, null);
 
             // Fancify background for row view.
-            GradientDrawable gradient = new GradientDrawable(GradientDrawable.Orientation.BOTTOM_TOP, new int[]
-                    {Color.TRANSPARENT, Color.argb(128, 158, 211, 255)});
-            gradient.setShape(GradientDrawable.RECTANGLE);
-            gradient.setCornerRadius(25.f);
-            rowView.setBackgroundDrawable(gradient);
+//            GradientDrawable gradient = new GradientDrawable(GradientDrawable.Orientation.BOTTOM_TOP, new int[]
+//                    {Color.TRANSPARENT, Color.argb(128, 158, 211, 255)});
+//            gradient.setShape(GradientDrawable.RECTANGLE);
+//            gradient.setCornerRadius(25.f);
+//            rowView.setBackgroundDrawable(gradient);
 
             // Set up our viewholder.
             viewHolder = new ViewHolder();
