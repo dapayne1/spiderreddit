@@ -5,8 +5,8 @@
       <filter>
         <option name="logLevel" value="verbose" />
         <option name="logMessagePattern" value="" />
-        <option name="logTagPattern" value="" />
-        <option name="name" value="app: com.davepayne.blogcrawler" />
+        <option name="logTagPattern" value="Testing" />
+        <option name="name" value="Testing" />
         <option name="packageNamePattern" value="com.davepayne.blogcrawler" />
         <option name="pid" value="" />
       </filter>
@@ -17,6 +17,10 @@
         <option name="name" value="SimpleRss2ParserDemo" />
         <option name="packageNamePattern" value="" />
         <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="name" value="app: com.davepayne.blogcrawler" />
+        <option name="packageNamePattern" value="com.davepayne.blogcrawler" />
       </filter>
     </filters>
   </component>
@@ -33,11 +37,23 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.davepayne.blogcrawler" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cbe3a79-352d-4f86-9fba-c960db876c5b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogcrawler/src/main/res/raw/ormlite_config.txt" />
+      <change type="MOVED" beforePath="C:\dev\workspace\davepayne\blogcrawler\src\main\java\util\GfxUtil.java" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/util/GfxUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/blogcrawler/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/EntryDialog.java" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/EntryDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailActivity.java" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailFragment.java" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListActivity.java" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListAdapter.java" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java" afterPath="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/res/layout/fragment_item_detail.xml" afterPath="$PROJECT_DIR$/blogcrawler/src/main/res/layout/fragment_item_detail.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogcrawler/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/blogcrawler/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BlogCrawler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,28 +115,18 @@
     <favorites_list name="BlogCrawler" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.52417797">
+    <splitter split-orientation="horizontal" split-proportion="0.45656082">
       <split-first>
         <leaf>
-          <file leaf-file-name="ItemDetailActivity.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="ItemDetailActivity.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailActivity.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
-                  <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ItemListActivity.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListActivity.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-139.55556" vertical-offset="737" max-vertical-offset="4641">
-                  <caret line="286" column="5" selection-start-line="286" selection-start-column="5" selection-end-line="286" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.52380955" vertical-offset="0" max-vertical-offset="1547">
+                  <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
                   <folding>
-                    <element signature="e#8658#8669#0" expanded="true" />
-                    <element signature="e#9927#9928#0" expanded="true" />
-                    <element signature="e#9958#9959#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#2391#2392#0" expanded="true" />
+                    <element signature="e#2425#2426#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -129,8 +135,8 @@
           <file leaf-file-name="RSSItem.class" pinned="false" current="false" current-in-tab="false">
             <entry file="jar://$PROJECT_DIR$/blogcrawler/libs/Simple-Rss2-Android.jar!/at/theengine/android/simple_rss2_android/RSSItem.class">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="850">
-                  <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+                <state vertical-scroll-proportion="-21.08" vertical-offset="0" max-vertical-offset="850">
+                  <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -149,32 +155,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="activity_item_twopane.xml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/layout/activity_item_twopane.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-              <provider editor-type-id="android-designer">
-                <state />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="activity_item_detail.xml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/layout/activity_item_detail.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
-                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-              <provider editor-type-id="android-designer">
-                <state />
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="entry_dialog.xml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/layout/entry_dialog.xml">
               <provider selected="true" editor-type-id="text-editor">
@@ -188,41 +168,54 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ItemListFragment.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java">
+          <file leaf-file-name="Bundle.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../adt-bundle-windows-x86_64-20131030/sdk/sources/android-19/android/os/Bundle.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.7104137" vertical-offset="2036" max-vertical-offset="2737">
-                  <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="29427">
+                  <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="GfxUtil.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/util/GfxUtil.java">
+          <file leaf-file-name="Intent.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../adt-bundle-windows-x86_64-20131030/sdk/sources/android-19/android/content/Intent.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-                  <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="98792" max-vertical-offset="122298">
+                  <caret line="6030" column="7" selection-start-line="6030" selection-start-column="7" selection-end-line="6030" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ItemDetailFragment.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailFragment.java">
+          <file leaf-file-name="ArrayMap.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../adt-bundle-windows-x86_64-20131030/sdk/sources/android-19/android/util/ArrayMap.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="1139">
-                  <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="6788" max-vertical-offset="13413">
+                  <caret line="435" column="0" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
                   <folding />
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="fragment_item_detail.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/layout/fragment_item_detail.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-2.2884614" vertical-offset="0" max-vertical-offset="221">
+                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+              <provider editor-type-id="android-designer">
+                <state />
               </provider>
             </entry>
           </file>
           <file leaf-file-name="RSSDBHelper.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBHelper.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="25.407408" vertical-offset="873" max-vertical-offset="1547">
-                  <caret line="22" column="97" selection-start-line="22" selection-start-column="97" selection-end-line="22" selection-end-column="97" />
+                <state vertical-scroll-proportion="-20.481482" vertical-offset="552" max-vertical-offset="1547">
+                  <caret line="76" column="44" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
@@ -241,9 +234,12 @@
           <file leaf-file-name="ItemListAdapter.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListAdapter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1513">
-                  <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-                  <folding />
+                <state vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1547">
+                  <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+                  <folding>
+                    <element signature="e#1200#1201#0" expanded="true" />
+                    <element signature="e#1242#1243#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -251,14 +247,14 @@
           <file leaf-file-name="EntryDialog.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/EntryDialog.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
-                  <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1258">
+                  <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#1345#2136#0" expanded="true" />
-                    <element signature="e#2125#2126#0" expanded="true" />
-                    <element signature="e#2449#2450#0" expanded="true" />
-                    <element signature="e#2512#2513#0" expanded="true" />
+                    <element signature="e#1343#2134#0" expanded="true" />
+                    <element signature="e#2123#2124#0" expanded="true" />
+                    <element signature="e#2447#2448#0" expanded="true" />
+                    <element signature="e#2510#2511#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -268,10 +264,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="RSSDBManager.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="RSSDBManager.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBManager.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.98367953" vertical-offset="0" max-vertical-offset="2312">
+                <state vertical-scroll-proportion="-24.555555" vertical-offset="0" max-vertical-offset="2312">
                   <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -289,18 +285,8 @@
           <file leaf-file-name="RSSDBData.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBData.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="999" max-vertical-offset="1700">
-                  <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="colors.xml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/values/colors.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
-                  <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1700">
+                  <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -310,8 +296,47 @@
             <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/values/strings.xml">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="289">
-                  <caret line="8" column="53" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="53" />
+                  <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ItemListFragment.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2686">
+                  <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ItemListActivity.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListActivity.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-14.592592" vertical-offset="1510" max-vertical-offset="5083">
+                  <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#2128#2129#0" expanded="true" />
+                    <element signature="e#2179#2180#0" expanded="true" />
+                    <element signature="e#8928#8939#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ItemDetailFragment.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailFragment.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.3809524" vertical-offset="1292" max-vertical-offset="2006">
+                  <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -1351,23 +1376,25 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailFragment.java" />
         <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/dummy/DummyContent.java" />
-        <option value="$PROJECT_DIR$/blogcrawler/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/blogcrawler/src/main/res/layout/entry_dialog.xml" />
-        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailActivity.java" />
-        <option value="$PROJECT_DIR$/blogcrawler/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBConfigUtil.java" />
         <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBData.java" />
         <option value="$PROJECT_DIR$/blogcrawler/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/blogcrawler/src/main/res/drawable/row_background_gradient.xml" />
-        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListAdapter.java" />
         <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBManager.java" />
-        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListActivity.java" />
-        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBHelper.java" />
-        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/EntryDialog.java" />
         <option value="$PROJECT_DIR$/blogcrawler/src/main/java/util/GfxUtil.java" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/res/layout/activity_item_detail.xml" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/res/layout/fragment_item_detail.xml" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBHelper.java" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListAdapter.java" />
         <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/EntryDialog.java" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListActivity.java" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailActivity.java" />
+        <option value="$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailFragment.java" />
       </list>
     </option>
   </component>
@@ -1435,18 +1462,8 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BlogCrawler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="davepayne" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blogcrawler" />
+              <option name="myItemId" value="raw" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1461,14 +1478,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="blogcrawler" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1491,14 +1500,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1529,40 +1530,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="blogcrawler" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BlogCrawler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="davepayne" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blogcrawler" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blogcrawler" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1582,7 +1549,7 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="07532d71" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus10" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="GalaxyNexus" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -1592,10 +1559,16 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\workspace\davepayne\blogcrawler\src\main\res" />
       <recent name="C:\dev\workspace\davepayne\blogcrawler\libs" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.davepayne.blogcrawler" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.blogcrawler">
@@ -1823,10 +1796,11 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29661018" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39862543" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.097928435" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3983051" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17010309" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1840,13 +1814,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17412141" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.65065914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11128861" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34745762" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1898,7 +1871,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1906,7 +1882,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
           <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2391#2392#0" expanded="true" />
+            <element signature="e#2425#2426#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1915,9 +1895,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="3553" max-vertical-offset="4726">
           <caret line="209" column="55" selection-start-line="209" selection-start-column="55" selection-end-line="209" selection-end-column="55" />
           <folding>
-            <element signature="e#8658#8669#0" expanded="true" />
-            <element signature="e#9927#9928#0" expanded="true" />
-            <element signature="e#9958#9959#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2128#2129#0" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+            <element signature="e#8928#8939#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1978,7 +1959,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="629">
           <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
-          <folding />
+          <folding>
+            <element signature="e#513#531#0" expanded="true" />
+            <element signature="e#874#901#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1986,7 +1970,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="2822">
           <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1994,7 +1980,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="1139">
           <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2018,7 +2006,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1027" max-vertical-offset="1530">
           <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
-          <folding />
+          <folding>
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2056,6 +2047,187 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBConfigUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.555555" vertical-offset="0" max-vertical-offset="2312">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#4168#4169#0" expanded="true" />
+            <element signature="e#4197#4198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../adt-bundle-windows-x86_64-20131030/sdk/sources/android-19/android/app/LoadedApk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1853" max-vertical-offset="18156">
+          <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+          <folding>
+            <element signature="e#6895#6896#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../adt-bundle-windows-x86_64-20131030/sdk/sources/android-19/android/app/ContextImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="13838" max-vertical-offset="34272">
+          <caret line="1025" column="0" selection-start-line="1025" selection-start-column="0" selection-end-line="1025" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../adt-bundle-windows-x86_64-20131030/sdk/sources/android-19/android/content/ContextWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="9010">
+          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding>
+            <element signature="e#3753#3754#0" expanded="false" />
+            <element signature="e#3802#3803#0" expanded="false" />
+            <element signature="e#3873#3874#0" expanded="false" />
+            <element signature="e#3920#3921#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../adt-bundle-windows-x86_64-20131030/sdk/sources/android-19/android/content/ComponentName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="5168">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../adt-bundle-windows-x86_64-20131030/sdk/sources/android-19/android/util/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2669" max-vertical-offset="5831">
+          <caret line="190" column="0" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/layout/activity_item_twopane.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43263474" vertical-offset="0" max-vertical-offset="748">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../adt-bundle-windows-x86_64-20131030/sdk/sources/android-19/android/os/Bundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="29427">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../adt-bundle-windows-x86_64-20131030/sdk/sources/android-19/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1263" max-vertical-offset="12597">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding>
+            <element signature="e#29237#29238#0" expanded="false" />
+            <element signature="e#29275#29276#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../adt-bundle-windows-x86_64-20131030/sdk/sources/android-19/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="4709">
+          <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+          <folding>
+            <element signature="e#6214#6215#0" expanded="false" />
+            <element signature="e#6248#6249#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../adt-bundle-windows-x86_64-20131030/sdk/sources/android-19/com/android/internal/os/ZygoteInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13073">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#27389#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4581498" vertical-offset="40879" max-vertical-offset="42568">
+          <caret line="2423" column="16" selection-start-line="2423" selection-start-column="16" selection-end-line="2423" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../adt-bundle-windows-x86_64-20131030/sdk/sources/android-19/android/widget/AbsListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32956153" vertical-offset="75332" max-vertical-offset="114512">
+          <caret line="4589" column="17" selection-start-line="4589" selection-start-column="17" selection-end-line="4589" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../adt-bundle-windows-x86_64-20131030/sdk/sources/android-19/android/widget/AdapterView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.281471" vertical-offset="4510" max-vertical-offset="19703">
+          <caret line="311" column="0" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../adt-bundle-windows-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0-sources.jar!/android/support/v4/app/ListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77916664" vertical-offset="0" max-vertical-offset="5865">
+          <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+          <folding>
+            <element signature="e#2036#2243#0" expanded="false" />
+            <element signature="e#2236#2237#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/blogcrawler/libs/Simple-Rss2-Android.jar!/at/theengine/android/simple_rss2_android/RSSItem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.08" vertical-offset="0" max-vertical-offset="850">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/raw/ormlite_config.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.481482" vertical-offset="552" max-vertical-offset="1547">
+          <caret line="76" column="44" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/layout/activity_item_list.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="272">
@@ -2067,20 +2239,66 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/layout/activity_item_twopane.xml">
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1547">
+          <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+          <folding>
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../adt-bundle-windows-x86_64-20131030/sdk/sources/android-19/android/util/ArrayMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6788" max-vertical-offset="13413">
+          <caret line="435" column="0" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../adt-bundle-windows-x86_64-20131030/sdk/sources/android-19/android/content/Intent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="98792" max-vertical-offset="122298">
+          <caret line="6030" column="7" selection-start-line="6030" selection-start-column="7" selection-end-line="6030" selection-end-column="7" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/layout/activity_item_detail.xml">
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/EntryDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1258">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1343#2134#0" expanded="true" />
+            <element signature="e#2123#2124#0" expanded="true" />
+            <element signature="e#2447#2448#0" expanded="true" />
+            <element signature="e#2510#2511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="289">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1700">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/layout/fragment_item_detail.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2884614" vertical-offset="0" max-vertical-offset="221">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
@@ -2089,42 +2307,55 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailFragment.java">
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="1139">
-          <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="2686">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/blogcrawler/libs/Simple-Rss2-Android.jar!/at/theengine/android/simple_rss2_android/RSSItem.class">
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="850">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="289">
-          <caret line="8" column="53" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/drawable/row_background_gradient.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.018579235" vertical-offset="0" max-vertical-offset="915">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-14.592592" vertical-offset="1510" max-vertical-offset="5083">
+          <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2128#2129#0" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+            <element signature="e#8928#8939#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42732242" vertical-offset="0" max-vertical-offset="915">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.12354651" vertical-offset="0" max-vertical-offset="688">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#513#531#0" expanded="true" />
+            <element signature="e#874#901#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/layout/activity_item_detail.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10271903" vertical-offset="0" max-vertical-offset="662">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/util/GfxUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4047619" vertical-offset="0" max-vertical-offset="714">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -2140,109 +2371,25 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListAdapter.java">
+    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1513">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-139.55556" vertical-offset="737" max-vertical-offset="4641">
-          <caret line="286" column="5" selection-start-line="286" selection-start-column="5" selection-end-line="286" selection-end-column="5" />
-          <folding>
-            <element signature="e#8658#8669#0" expanded="true" />
-            <element signature="e#9927#9928#0" expanded="true" />
-            <element signature="e#9958#9959#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="999" max-vertical-offset="1700">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.98367953" vertical-offset="0" max-vertical-offset="2312">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        <state vertical-scroll-proportion="-0.3809524" vertical-offset="1292" max-vertical-offset="2006">
+          <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#4168#4169#0" expanded="true" />
-            <element signature="e#4197#4198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBConfigUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/db/RSSDBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="25.407408" vertical-offset="873" max-vertical-offset="1547">
-          <caret line="22" column="97" selection-start-line="22" selection-start-column="97" selection-end-line="22" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/EntryDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
-          <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1345#2136#0" expanded="true" />
-            <element signature="e#2125#2126#0" expanded="true" />
-            <element signature="e#2449#2450#0" expanded="true" />
-            <element signature="e#2512#2513#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="1207">
-          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/util/GfxUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogcrawler/src/main/java/com/davepayne/blogcrawler/ItemListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7104137" vertical-offset="2036" max-vertical-offset="2737">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-          <folding />
+        <state vertical-scroll-proportion="0.52380955" vertical-offset="0" max-vertical-offset="1547">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2391#2392#0" expanded="true" />
+            <element signature="e#2425#2426#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

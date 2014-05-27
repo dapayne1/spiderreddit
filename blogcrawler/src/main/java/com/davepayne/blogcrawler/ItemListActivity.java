@@ -57,6 +57,15 @@ public class ItemListActivity extends ActionBarActivity implements ItemListFragm
     // SharedPreferences stores our currentURL.
     private SharedPreferences mSharedPreferences;
 
+    /**
+     * Save all appropriate fragment state.
+     * @param outState
+     */
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+    }
+
     // Convenience key string definition.
     private final static String SHARED_PREF_KEY = "shared_preferences";
 
