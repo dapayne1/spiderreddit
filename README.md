@@ -4,8 +4,8 @@ SpiderReddit RSS Reader (Demo)
 Barebones, simple demonstration of an Android RSS Reader for the site [www.reddit.com][1].
 
 - [Features] (#features)
-- [Build Instructions] (#build)
-- [Third Party Libraries] (#libraries)
+- [Build Instructions] (#build-instructions)
+- [Third Party Libraries] (#third-party-libraries)
 
 # Features
 
