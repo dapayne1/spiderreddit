@@ -1,4 +1,4 @@
-package util;
+package com.davepayne.blogcrawler.util;
 
 import android.content.res.Resources;
 
