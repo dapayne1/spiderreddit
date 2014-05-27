@@ -1,10 +1,13 @@
-package com.davepayne.blogcrawler;
+package com.davepayne.blogcrawler.fragment;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.ListFragment;
 import android.view.View;
 import android.widget.ListView;
+
+import com.davepayne.blogcrawler.activity.ItemListActivity;
+import com.davepayne.blogcrawler.model.ItemListAdapter;
 
 import java.util.ArrayList;
 

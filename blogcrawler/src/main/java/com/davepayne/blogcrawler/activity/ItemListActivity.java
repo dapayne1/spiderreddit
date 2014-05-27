@@ -1,4 +1,4 @@
-package com.davepayne.blogcrawler;
+package com.davepayne.blogcrawler.activity;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -6,10 +6,13 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
-import android.util.Log;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.davepayne.blogcrawler.EntryDialog;
+import com.davepayne.blogcrawler.fragment.ItemDetailFragment;
+import com.davepayne.blogcrawler.fragment.ItemListFragment;
+import com.davepayne.blogcrawler.R;
 import com.davepayne.blogcrawler.db.RSSDBData;
 import com.davepayne.blogcrawler.db.RSSDBManager;
 
@@ -30,11 +33,11 @@ import at.theengine.android.simple_rss2_android.SimpleRss2ParserCallback;
  * item details side-by-side using two vertical panes.
  * <p>
  * The activity makes heavy use of fragments. The list of items is a
- * {@link ItemListFragment} and the item details
- * (if present) is a {@link ItemDetailFragment}.
+ * {@link com.davepayne.blogcrawler.fragment.ItemListFragment} and the item details
+ * (if present) is a {@link com.davepayne.blogcrawler.fragment.ItemDetailFragment}.
  * <p>
  * This activity also implements the required
- * {@link ItemListFragment.Callbacks} interface
+ * {@link com.davepayne.blogcrawler.fragment.ItemListFragment.Callbacks} interface
  * to listen for item selections.
  */
 public class ItemListActivity extends ActionBarActivity implements ItemListFragment.Callbacks {

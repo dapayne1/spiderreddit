@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.davepayne.blogcrawler.ItemListActivity"
+            android:name=".activity.ItemListActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,10 +19,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.davepayne.blogcrawler.ItemDetailActivity"
+            android:name=".activity.ItemDetailActivity"
             android:label="@string/title_item_detail"
             android:configChanges="orientation|screenSize"
-            android:parentActivityName="com.davepayne.blogcrawler.ItemListActivity" >
+            android:parentActivityName=".activity.ItemListActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.davepayne.blogcrawler.ItemListActivity" />

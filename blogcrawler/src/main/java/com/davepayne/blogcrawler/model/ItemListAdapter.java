@@ -1,4 +1,4 @@
-package com.davepayne.blogcrawler;
+package com.davepayne.blogcrawler.model;
 
 import android.app.Activity;
 import android.graphics.Color;

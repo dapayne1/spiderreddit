@@ -8,7 +8,7 @@
     android:divider="?android:attr/dividerHorizontal"
     android:orientation="horizontal"
     android:showDividers="middle"
-    tools:context="com.davepayne.blogcrawler.ItemListActivity">
+    tools:context="com.davepayne.blogcrawler.activity.ItemListActivity">
 
     <!--
     This layout is a two-pane layout for the Items
@@ -23,7 +23,7 @@
 
     <fragment
         android:id="@+id/item_list"
-        android:name="com.davepayne.blogcrawler.ItemListFragment"
+        android:name="com.davepayne.blogcrawler.fragment.ItemListFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"

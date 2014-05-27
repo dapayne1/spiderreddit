@@ -1,9 +1,12 @@
-package com.davepayne.blogcrawler;
+package com.davepayne.blogcrawler.activity;
 
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
+
+import com.davepayne.blogcrawler.fragment.ItemDetailFragment;
+import com.davepayne.blogcrawler.R;
 
 
 /**
@@ -13,7 +16,7 @@ import android.view.MenuItem;
  * in a {@link ItemListActivity}.
  * <p>
  * This activity is mostly just a 'shell' activity containing nothing
- * more than a {@link ItemDetailFragment}.
+ * more than a {@link com.davepayne.blogcrawler.fragment.ItemDetailFragment}.
  */
 public class ItemDetailActivity extends ActionBarActivity {
 

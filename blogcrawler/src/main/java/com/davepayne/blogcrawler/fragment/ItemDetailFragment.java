@@ -1,4 +1,4 @@
-package com.davepayne.blogcrawler;
+package com.davepayne.blogcrawler.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -10,10 +10,12 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
+import com.davepayne.blogcrawler.R;
+
 /**
  * A fragment representing a single Item detail screen.
- * This fragment is either contained in a {@link ItemListActivity}
- * in two-pane mode (on tablets) or a {@link ItemDetailActivity}
+ * This fragment is either contained in a {@link com.davepayne.blogcrawler.activity.ItemListActivity}
+ * in two-pane mode (on tablets) or a {@link com.davepayne.blogcrawler.activity.ItemDetailActivity}
  * on handsets.
  */
 public class ItemDetailFragment extends Fragment {
