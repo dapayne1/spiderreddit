@@ -2,7 +2,7 @@ package com.davepayne.blogcrawler.activity;
 
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
 import com.davepayne.blogcrawler.fragment.ItemDetailFragment;
@@ -18,7 +18,8 @@ import com.davepayne.blogcrawler.R;
  * This activity is mostly just a 'shell' activity containing nothing
  * more than a {@link com.davepayne.blogcrawler.fragment.ItemDetailFragment}.
  */
-public class ItemDetailActivity extends ActionBarActivity {
+public class ItemDetailActivity extends AppCompatActivity
+{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

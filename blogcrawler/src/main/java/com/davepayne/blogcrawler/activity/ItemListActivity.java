@@ -5,7 +5,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.MenuItem;
 import android.widget.Toast;
 
@@ -40,7 +41,8 @@ import at.theengine.android.simple_rss2_android.SimpleRss2ParserCallback;
  * {@link com.davepayne.blogcrawler.fragment.ItemListFragment.Callbacks} interface
  * to listen for item selections.
  */
-public class ItemListActivity extends ActionBarActivity implements ItemListFragment.Callbacks {
+public class ItemListActivity extends AppCompatActivity implements ItemListFragment.Callbacks
+{
 
     /**
      * Whether or not the activity is in two-pane mode, i.e. running on a tablet
@@ -145,7 +147,8 @@ public class ItemListActivity extends ActionBarActivity implements ItemListFragm
         final List<RSSDBData> savedRSSData = RSSDBManager.getInstance().getAllRSSDBDatas(this);
 
         // If our local database has returned data,
-        if (savedRSSData != null) {
+        if (savedRSSData != null && savedRSSData.size() > 0 )
+        {
             didLoadSavedData = true;
             // Save our newly loaded items.
             rssItems = convertOutOfDBFormat(savedRSSData);

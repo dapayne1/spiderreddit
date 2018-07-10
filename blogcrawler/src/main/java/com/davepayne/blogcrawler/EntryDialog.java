@@ -12,8 +12,8 @@ import android.widget.Toast;
 import com.davepayne.blogcrawler.activity.ItemListActivity;
 
 /**
- * Convenience method to supply a standardized AlertDialog.Builder for wheneve the user wishes
- * to update the RSS URL. Provides an edittable field for user to do so.
+ * Convenience method to supply a standardized AlertDialog.Builder for whenever the user wishes
+ * to update the RSS URL. Provides an editable field for user to do so.
  */
 public class EntryDialog extends AlertDialog.Builder {
 
