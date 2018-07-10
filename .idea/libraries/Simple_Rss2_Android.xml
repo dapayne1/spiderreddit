@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Simple-Rss2-Android">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/blogcrawler/libs/Simple-Rss2-Android.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
